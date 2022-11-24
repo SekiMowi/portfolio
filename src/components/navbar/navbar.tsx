@@ -9,11 +9,10 @@ const Navbar: React.FC<NavbarProps> = () => {
     return (
         <div className={style.navbar}>
                 <Link className={style.link}to={'/'}>Home</Link>
-                <Link className={style.link}to={'first'}>Projects</Link>
-               <Link className={style.link}to={'placeholder'}>Skills</Link>
-               <Link className={style.link}to={'placeholder'}>PlaceHolder</Link>
+                <Link className={style.link}to={'projects'}>Projects</Link>
+               <Link className={style.link}to={'cv'}>CV</Link>
         </div>
+        
     )
 }
-
 export default Navbar
