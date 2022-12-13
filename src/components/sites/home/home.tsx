@@ -7,8 +7,12 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = () => {
   return (
     <div className={styles.home}>
-        <h1>My Name</h1>
-        <p>My intro</p>
+      <div className={styles.name}>
+        <h1>Ville Mäkinen</h1>
+        <div className={styles.about}>
+          <p>Software Developer</p>
+          </div>
+        </div>
     </div>
   )
 }

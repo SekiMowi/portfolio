@@ -1,5 +1,14 @@
-.home{
-text-align: center;
-position: fixed;
-height: 50%;
+.home {
+    width: 100%;
+  }
+.name{
+    height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    color: black;
 }
