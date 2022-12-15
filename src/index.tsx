@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes, Route,} from "react-router-dom";
+import {HashRouter as Router, Routes, Route,} from "react-router-dom";
 import './index.module.scss'
 import Navbar from './components/navbar/navbar';
 import Projects from './components/sites/projects/projects';
@@ -12,14 +12,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <Router>
   <Navbar/>
     <Routes>
       <Route path='/' element={<App />}/>
       <Route path='projects' element={<Projects/>}/>
       <Route path='cv' element={<Cv/>}/>
     </Routes>
-  </BrowserRouter>
+  </Router>
 </React.StrictMode>
 );
 reportWebVitals();
