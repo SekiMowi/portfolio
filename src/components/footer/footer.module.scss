@@ -5,12 +5,16 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items:center;
 }
 footer p{
     color: white;
     display:  flex;
     flex-direction: column;
     text-align: center;
+}
+.socialIcon{
+    margin: 10;
+    height: 40;
+    width: 40;
 }

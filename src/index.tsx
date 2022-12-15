@@ -20,7 +20,6 @@ root.render(
       <Route path='projects' element={<Projects/>}/>
       <Route path='cv' element={<Cv/>}/>
     </Routes>
-    <Footer/>
   </BrowserRouter>
 </React.StrictMode>
 );
