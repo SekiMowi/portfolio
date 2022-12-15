@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import './index.module.scss'
 import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
 import Projects from './components/sites/projects/projects';
 import Cv from './components/sites/cv/cv';
 const root = ReactDOM.createRoot(
