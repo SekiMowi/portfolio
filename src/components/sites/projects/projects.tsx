@@ -10,8 +10,8 @@ const Projects: React.FC<ProjectsProps> = () => {
     <div>
       <h1 className={styles.projectTitle}>My Projects</h1>
         <div className={styles.projectList}>
-          <img src={pro1}/>
-          <h2 className={styles.projectNames}>My Fps Game</h2>
+          <img src={pro1} alt=''/>
+          <h2 className={styles.pr}>My Fps Game</h2>
         </div>
     </div>
   )
