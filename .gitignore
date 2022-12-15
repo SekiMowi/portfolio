@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+!portfolio\node_modules\react-social-icons
 
 # testing
 /coverage
