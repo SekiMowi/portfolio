@@ -2,32 +2,42 @@
     width: 100%;
   }
 .name{
-    height: calc(100vh - 300px);
+    height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(118, 118, 197);
 }
 .about{
-    color: black;
+    color:rgb(118, 118, 197);
     font-size: 25px;
 }
+.skillsBackground{
+    background-color: rgb(118, 118, 197);
+}
 .skills{
-    margin: 5px;
+    
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 40px;
+    color: lightblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .skillsList{
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 20px;
+    color: lightblue;
 }

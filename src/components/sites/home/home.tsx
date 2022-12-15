@@ -14,9 +14,10 @@ const Home: React.FC<HomeProps> = () => {
             <p>Software Developer</p>
             <SocialIcon url="https://github.com/villemakinen27" style={{ margin: 10, height : 50 ,width: 50}} fgColor="#ffffff" />
             <SocialIcon url="https://www.linkedin.com/in/villehmakinen/"style={{ margin:10, height : 50 ,width: 50}} fgColor="#ffffff" />
+            
          </div>
         </div>
-        <div>
+        <div className={styles.skillsBackground} >
           <h1 className={styles.skills}>Skills</h1>
             <li className={styles.skillsList}>
               <h2>Programs</h2>

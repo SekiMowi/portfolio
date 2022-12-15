@@ -1,12 +1,12 @@
 .navbar{
     text-align: center;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    background-color:black;
+    font-size: 24px;
+    background-color:rgb(118, 118, 197);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .link{
-    color: white;
+    color: lightblue;
     padding: 18.5px 28px; 
     text-decoration: none;
     text-align: center;
@@ -16,5 +16,5 @@
 }
 
 .link:hover{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(61, 61, 98);
 }

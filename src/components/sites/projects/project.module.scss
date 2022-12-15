@@ -1,0 +1,20 @@
+.projectTitle{
+    color: rgb(118, 118, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projectList{
+    padding-top: 36px;
+    width: 35vw;
+    display: grid;
+    place-items: center;
+}
+.projectNames{
+    padding-top:6px;
+}
+img{
+    width: 350px;
+    border-radius: 10px;
+}
